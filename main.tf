@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "one" {
-  ami           = "ami-0208b77a23d891325"
+  ami           = "ami-063d43db0594b521b"
   instance_type = "t2.micro"
   tags = {
     Name = "raham-server"
